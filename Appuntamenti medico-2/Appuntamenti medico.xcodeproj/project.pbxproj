@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830EB321271ECEAF00795AC1 /* ProfileUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB320271ECEAF00795AC1 /* ProfileUIView.swift */; };
+		830EB323271F2EE600795AC1 /* Profile2UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB322271F2EE600795AC1 /* Profile2UIView.swift */; };
+		830EB325271FFEC600795AC1 /* SheetUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB324271FFEC600795AC1 /* SheetUIView.swift */; };
+		8311DA99271DC9FB00014EAA /* PatientUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311DA98271DC9FB00014EAA /* PatientUIView.swift */; };
+		835E57CA271991430092ADC8 /* RegistrazioneMedicoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835E57C9271991430092ADC8 /* RegistrazioneMedicoUIView.swift */; };
+		83758EDF271D5CAE0001E00C /* TodayUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83758EDE271D5CAE0001E00C /* TodayUIView.swift */; };
+		839384F127182A0600CB5E2A /* Appuntamenti_medicoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839384F027182A0600CB5E2A /* Appuntamenti_medicoApp.swift */; };
+		839384F327182A0600CB5E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839384F227182A0600CB5E2A /* ContentView.swift */; };
+		839384F527182A0800CB5E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839384F427182A0800CB5E2A /* Assets.xcassets */; };
+		839384F827182A0800CB5E2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839384F727182A0800CB5E2A /* Preview Assets.xcassets */; };
+		839384FA27182A0800CB5E2A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839384F927182A0800CB5E2A /* Persistence.swift */; };
+		839384FD27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 839384FB27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodeld */; };
+		8394B2EB2719EFE60022C6F3 /* HomePageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8394B2EA2719EFE60022C6F3 /* HomePageUIView.swift */; };
+		8394B2ED271ADDD70022C6F3 /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8394B2EC271ADDD70022C6F3 /* LoginUIView.swift */; };
+		8394B2EF271C51240022C6F3 /* CalendarHomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8394B2EE271C51230022C6F3 /* CalendarHomeUIView.swift */; };
+		8394B2F1271C569A0022C6F3 /* TabBarHomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8394B2F0271C569A0022C6F3 /* TabBarHomeUIView.swift */; };
+		D62ED8552720144E00FCD429 /* SettingsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62ED8542720144E00FCD429 /* SettingsUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		830EB320271ECEAF00795AC1 /* ProfileUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIView.swift; sourceTree = "<group>"; };
+		830EB322271F2EE600795AC1 /* Profile2UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile2UIView.swift; sourceTree = "<group>"; };
+		830EB324271FFEC600795AC1 /* SheetUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetUIView.swift; sourceTree = "<group>"; };
+		8311DA98271DC9FB00014EAA /* PatientUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientUIView.swift; sourceTree = "<group>"; };
+		835E57C9271991430092ADC8 /* RegistrazioneMedicoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrazioneMedicoUIView.swift; sourceTree = "<group>"; };
+		83758EDE271D5CAE0001E00C /* TodayUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUIView.swift; sourceTree = "<group>"; };
+		839384ED27182A0600CB5E2A /* Appuntamenti medico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appuntamenti medico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		839384F027182A0600CB5E2A /* Appuntamenti_medicoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appuntamenti_medicoApp.swift; sourceTree = "<group>"; };
+		839384F227182A0600CB5E2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		839384F427182A0800CB5E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839384F727182A0800CB5E2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		839384F927182A0800CB5E2A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		839384FC27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Appuntamenti_medico.xcdatamodel; sourceTree = "<group>"; };
+		8394B2EA2719EFE60022C6F3 /* HomePageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageUIView.swift; sourceTree = "<group>"; };
+		8394B2EC271ADDD70022C6F3 /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
+		8394B2EE271C51230022C6F3 /* CalendarHomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHomeUIView.swift; sourceTree = "<group>"; };
+		8394B2F0271C569A0022C6F3 /* TabBarHomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHomeUIView.swift; sourceTree = "<group>"; };
+		D62ED8542720144E00FCD429 /* SettingsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839384EA27182A0600CB5E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839384E427182A0600CB5E2A = {
+			isa = PBXGroup;
+			children = (
+				839384EF27182A0600CB5E2A /* Appuntamenti medico */,
+				839384EE27182A0600CB5E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839384EE27182A0600CB5E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839384ED27182A0600CB5E2A /* Appuntamenti medico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839384EF27182A0600CB5E2A /* Appuntamenti medico */ = {
+			isa = PBXGroup;
+			children = (
+				830EB324271FFEC600795AC1 /* SheetUIView.swift */,
+				83758EDE271D5CAE0001E00C /* TodayUIView.swift */,
+				835E57C9271991430092ADC8 /* RegistrazioneMedicoUIView.swift */,
+				8394B2EC271ADDD70022C6F3 /* LoginUIView.swift */,
+				8394B2EA2719EFE60022C6F3 /* HomePageUIView.swift */,
+				8394B2EE271C51230022C6F3 /* CalendarHomeUIView.swift */,
+				8394B2F0271C569A0022C6F3 /* TabBarHomeUIView.swift */,
+				830EB322271F2EE600795AC1 /* Profile2UIView.swift */,
+				830EB320271ECEAF00795AC1 /* ProfileUIView.swift */,
+				8311DA98271DC9FB00014EAA /* PatientUIView.swift */,
+				839384F027182A0600CB5E2A /* Appuntamenti_medicoApp.swift */,
+				D62ED8542720144E00FCD429 /* SettingsUIView.swift */,
+				839384F227182A0600CB5E2A /* ContentView.swift */,
+				839384F427182A0800CB5E2A /* Assets.xcassets */,
+				839384F927182A0800CB5E2A /* Persistence.swift */,
+				839384FB27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodeld */,
+				839384F627182A0800CB5E2A /* Preview Content */,
+			);
+			path = "Appuntamenti medico";
+			sourceTree = "<group>";
+		};
+		839384F627182A0800CB5E2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				839384F727182A0800CB5E2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839384EC27182A0600CB5E2A /* Appuntamenti medico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8393850027182A0800CB5E2A /* Build configuration list for PBXNativeTarget "Appuntamenti medico" */;
+			buildPhases = (
+				839384E927182A0600CB5E2A /* Sources */,
+				839384EA27182A0600CB5E2A /* Frameworks */,
+				839384EB27182A0600CB5E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Appuntamenti medico";
+			productName = "Appuntamenti medico";
+			productReference = 839384ED27182A0600CB5E2A /* Appuntamenti medico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839384E527182A0600CB5E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					839384EC27182A0600CB5E2A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 839384E827182A0600CB5E2A /* Build configuration list for PBXProject "Appuntamenti medico" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839384E427182A0600CB5E2A;
+			productRefGroup = 839384EE27182A0600CB5E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839384EC27182A0600CB5E2A /* Appuntamenti medico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839384EB27182A0600CB5E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839384F827182A0800CB5E2A /* Preview Assets.xcassets in Resources */,
+				839384F527182A0800CB5E2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839384E927182A0600CB5E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62ED8552720144E00FCD429 /* SettingsUIView.swift in Sources */,
+				830EB321271ECEAF00795AC1 /* ProfileUIView.swift in Sources */,
+				839384FD27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodeld in Sources */,
+				839384FA27182A0800CB5E2A /* Persistence.swift in Sources */,
+				83758EDF271D5CAE0001E00C /* TodayUIView.swift in Sources */,
+				839384F327182A0600CB5E2A /* ContentView.swift in Sources */,
+				8394B2EF271C51240022C6F3 /* CalendarHomeUIView.swift in Sources */,
+				830EB325271FFEC600795AC1 /* SheetUIView.swift in Sources */,
+				8394B2F1271C569A0022C6F3 /* TabBarHomeUIView.swift in Sources */,
+				8311DA99271DC9FB00014EAA /* PatientUIView.swift in Sources */,
+				8394B2EB2719EFE60022C6F3 /* HomePageUIView.swift in Sources */,
+				835E57CA271991430092ADC8 /* RegistrazioneMedicoUIView.swift in Sources */,
+				830EB323271F2EE600795AC1 /* Profile2UIView.swift in Sources */,
+				8394B2ED271ADDD70022C6F3 /* LoginUIView.swift in Sources */,
+				839384F127182A0600CB5E2A /* Appuntamenti_medicoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		839384FE27182A0800CB5E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839384FF27182A0800CB5E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8393850127182A0800CB5E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Appuntamenti medico/Preview Content\"";
+				DEVELOPMENT_TEAM = N77ACL3FHZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio.Appuntamenti-medico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8393850227182A0800CB5E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Appuntamenti medico/Preview Content\"";
+				DEVELOPMENT_TEAM = N77ACL3FHZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio.Appuntamenti-medico";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839384E827182A0600CB5E2A /* Build configuration list for PBXProject "Appuntamenti medico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839384FE27182A0800CB5E2A /* Debug */,
+				839384FF27182A0800CB5E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8393850027182A0800CB5E2A /* Build configuration list for PBXNativeTarget "Appuntamenti medico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8393850127182A0800CB5E2A /* Debug */,
+				8393850227182A0800CB5E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		839384FB27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				839384FC27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodel */,
+			);
+			currentVersion = 839384FC27182A0800CB5E2A /* Appuntamenti_medico.xcdatamodel */;
+			path = Appuntamenti_medico.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 839384E527182A0600CB5E2A /* Project object */;
+}
